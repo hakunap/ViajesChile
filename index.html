@@ -70,6 +70,7 @@
             </div>
         </section>
 
+    <!-- Se usa display none y flex para desaparecer section en mobile-->
         <section class="d-none d-md-flex" id="quienessomos">
             <div class="container">
             <div class="p-3 mb-2 bg-black text-white">
@@ -201,6 +202,7 @@
                         <label for="mensaje" class="form-label">Mensaje:</label>
                         <textarea class="form-control" id="mensaje" name="mensaje" required rows="3"></textarea>
                     </div>
+                    <!-- Se añade tooltip de ayuda y alert para confirmación de envío -->
                     <button id="btn-enviar" class="btn btn-info me-3 text-white" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Envía tu mensaje para contactarnos." data-bs-custom-class="custom-tooltip">
                         Enviar</button>
                 </form>
