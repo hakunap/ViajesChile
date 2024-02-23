@@ -1,0 +1,29 @@
+body {
+  font-family: 'Roboto', sans-serif ;
+  background-color: black !important;
+  color: white;
+  font-family: roboto !important;
+}
+
+
+.icono  {
+  text-align: center;
+}
+
+h3  {
+  text-align: center;
+}
+
+i{
+  color: white;
+  text-align: center;
+}
+
+
+.quienes-somos  {
+  background-color: black;
+}
+
+.ampliada {
+  transform: scale(1.3); /* Escala la imagen al 120% */
+}
